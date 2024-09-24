@@ -1,0 +1,144 @@
+{
+  "Common": {
+    "settings": "impostazioni",
+    "newPick": "Nuovo Pick",
+    "help": "Aiuto",
+    "appearance": "Aspetto",
+    "appLanguage": "Lingua dell'App",
+    "translationLanguage": "Lingua della Traduzione",
+    "pushNotifications": "Notifiche Push",
+    "support": "Supporto",
+    "privacyPolicy": "Politica sulla Privacy",
+    "termsOfService": "Termini di Servizio",
+    "rateUs": "Valutaci",
+    "logout": "Esci",
+    "logoutMessage": "Sei sicuro di voler uscire?",
+    "version": "Versione",
+    "languages": {
+      "en": "Inglese",
+      "es": "Spagnolo",
+      "it": "Italiano"
+    },
+    "chooseFrom": "Scegli da",
+    "disableNotifications": "Disabilita Notifiche",
+    "enableNotifications": "Abilita Notifiche",
+    "searchInBook": "Cerca nel Libro",
+    "searchYourMind": "Cerca nella tua mente",
+    "tapIntoYourKnowledge": "Attingi alla tua conoscenza",
+    "keyword": "Parola Chiave",
+    "annotation": "Annotazione",
+    "meaning": "Significato",
+    "startRecording": "Inizia a Registrare",
+    "recording": "Sto ascoltando...",
+    "changeVoiceLanguage": "Cambia Lingua della Voce",
+    "deletingBook": "Eliminazione Libro...",
+    "deletingPick": "Eliminazione Pick...",
+    "by": "di",
+    "addContentToAnnotation": "Aggiungi contenuto a questa annotazione...",
+    "sources": "Fonti",
+    "changeTranslationLanguage": "Cambia Lingua di Traduzione",
+    "establishingConnection": "Stabilendo la connessione...",
+    "searchPlaceholder": "Cerca...",
+    "loadingTranslation": "Caricamento traduzione...",
+    "unableToTranslate": "Impossibile tradurre",
+    "moreOnDictionary": "Scopri di più sul dizionario",
+    "bookSaved": "Libro salvato",
+    "selectBook": "Seleziona Libro",
+    "addingPick": "Aggiungo Pick...",
+    "scanText": "Scansiona Testo",
+    "emptyAuthorHint": "Se lasci l'autore vuoto, lo recupereremo per te.",
+    "creating": "Creazione...",
+    "bookTitle": "Titolo del Libro",
+    "bookAuthor": "Autore del Libro",
+    "bookAuthorOptional": "Autore del Libro (opzionale)",
+    "pickTitle": "Titolo del pick",
+    "wordDefinition": "Definizione della Parola",
+    "addAnnotationPlaceholder": "Aggiungi o genera dettagli su questa annotazione...",
+    "editBookMetadataHeader": "Modifica il titolo del libro e altri metadati.",
+    "chooseFromExistingTopics": "Scegli uno dei temi esistenti",
+    "orCreateNewTopic": "O crea un nuovo tema",
+    "tapTheImageToSelectText": "Tocca l'immagine per selezionare il testo che vuoi utilizzare per creare il tuo pick",
+    "dragAndDropToReorder": "Trascina e rilascia per ordinare",
+    "all": "Tutti",
+    "shareBookMessage": "Dai un'occhiata a questo libro su Feynman"
+  },
+  "PushNotifications": {
+    "disabledMessage": "Le notifiche push sono attualmente disabilitate. Per abilitare le notifiche push, vai alle impostazioni del dispositivo e abilitalo per questa app.",
+    "enabledMessage": "Feynman ti invierà notifiche sulle tue scelte per tenerti in contatto con la tua conoscenza.",
+    "allBooks": "Tutti i Libri",
+    "lastEdited": "Ultimi libri modificati"
+  },
+  "Placeholders": {
+    "book": "Solo un momento, stiamo recuperando il tuo libro",
+    "books": "Non ci sono ancora libri qui, tocca il pulsante viola per iniziare",
+    "search": "Spiacenti, non abbiamo trovato risultati per la tua ricerca.",
+    "bookSelector": "Spiacenti, non abbiamo trovato libri con questo titolo"
+  },
+  "AddNewPick": {
+    "enrichContent": "Arricchisci contenuto",
+    "doingMagic": "Sto Facendo la magia...",
+    "textPlaceholder": "Salva il prossimo contenuto straordinario..."
+  },
+  "Popups": {
+    "deletePickTitle": "Elimina pick",
+    "deletePickMessage": "Sei sicuro di voler eliminare questa pick?",
+    "deleteBookTitle": "Elimina Libro",
+    "deleteBookMessage": "Sei sicuro di voler eliminare questo libro?"
+  },
+  "Actions": {
+    "saveBook": "Salva Libro",
+    "saving": "Salvataggio...",
+    "search": "Cerca",
+    "reorderPicks": "Riordina Picks",
+    "editTopics": "Modifica Temi",
+    "paste": "Incolla",
+    "share": "Condividi",
+    "edit": "Modifica",
+    "copy": "Copia",
+    "delete": "Elimina",
+    "editMetadata": "Modifica Metadati",
+    "changeTitle": "Cambia Titolo",
+    "addTitle": "Aggiungi Titolo",
+    "copied": "Copiato",
+    "addNewPick": "Aggiungi Nuovo Pick",
+    "createBook": "Crea Libro",
+    "addToBook": "Aggiungi",
+    "createOrAddPick": "Crea o Aggiungi",
+    "removeTranslation": "Rimuovi Traduzione",
+    "generateAI": "genera con AI",
+    "editTitle": "Modifica Titolo",
+    "changeColor": "Cambia Colore",
+    "add": "Aggiungi",
+    "contactUs": "Contattaci",
+    "done": "Fatto",
+    "undo": "Annulla",
+    "getStarted": "Inizia",
+    "editContent": "Modifica Contenuto"
+  },
+  "Help": {
+    "main": "Se hai domande o hai bisogno di aiuto, sentiti libero di contattarci in qualsiasi momento."
+  },
+  "Login": {
+    "bySigningIn": "Accedendo, accetti i nostri",
+    "and": "e"
+  },
+  "Onboarding": {
+    "items": [
+      {
+        "title": "Ricorda ciò che leggi",
+        "description": "Risolvere il problema di dimenticare ciò che leggi utilizzando l'app per ricordare ciò che leggi."
+      },
+      {
+        "title": "Evidenzia le tue citazioni preferite",
+        "description": "Evidenzia le tue citazioni preferite e condividile con i tuoi amici."
+      },
+      {
+        "title": "Costruisci il tuo pensiero critico",
+        "description": "Costruisci il tuo pensiero critico scrivendo i tuoi pensieri e idee su ciò che leggi."
+      }
+    ]
+  },
+  "Toasts": {
+    "couldNotEnrichText": "Impossibile arricchire il testo"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Panta",
+  "displayName": "Panta",
+  "plugins": ["expo-font", "expo-localization"]
+}

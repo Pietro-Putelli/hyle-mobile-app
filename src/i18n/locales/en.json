@@ -1,0 +1,145 @@
+{
+  "Common": {
+    "settings": "settings",
+    "newPick": "New Pick",
+    "help": "Help",
+    "appearance": "Appearance",
+    "appLanguage": "App Language",
+    "translationLanguage": "Translation Language",
+    "pushNotifications": "Push Notifications",
+    "support": "Support",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "rateUs": "Rate Us",
+    "logout": "Logout",
+    "logoutMessage": "Are you sure you want to logout?",
+    "cancel": "Cancel",
+    "version": "Version",
+    "languages": {
+      "en": "English",
+      "es": "Spanish",
+      "it": "Italian"
+    },
+    "chooseFrom": "Choose from",
+    "disableNotifications": "Disable Notifications",
+    "enableNotifications": "Enable Notifications",
+    "searchInBook": "Search in Book",
+    "searchYourMind": "Search your mind",
+    "tapIntoYourKnowledge": "Tap into your knowledge",
+    "keyword": "Keyword",
+    "annotation": "Annotation",
+    "meaning": "Meaning",
+    "startRecording": "Start Recording",
+    "recording": "I'm listening...",
+    "changeVoiceLanguage": "Change Voice Language",
+    "deletingBook": "Deleting Book...",
+    "deletingPick": "Deleting Pick...",
+    "by": "by",
+    "addContentToAnnotation": "Add content to this annotation...",
+    "sources": "Sources",
+    "changeTranslationLanguage": "Change Translation Language",
+    "establishingConnection": "Establishing connection...",
+    "searchPlaceholder": "Search...",
+    "loadingTranslation": "Loading translation...",
+    "unableToTranslate": "Unable to translate",
+    "moreOnDictionary": "Discover more on dictionary",
+    "bookSaved": "Book saved",
+    "selectBook": "Select Book",
+    "addingPick": "Adding Pick...",
+    "scanText": "Scan Text",
+    "emptyAuthorHint": "If you leave the author empty, we will get it for you.",
+    "creating": "Creating...",
+    "bookTitle": "Book Title",
+    "bookAuthor": "Book Author",
+    "bookAuthorOptional": "Book Author (optional)",
+    "pickTitle": "Pick Title",
+    "wordDefinition": "Word Definition",
+    "addAnnotationPlaceholder": "Add or generate details about this annotation...",
+    "editBookMetadataHeader": "Edit the book title and other metadata.",
+    "chooseFromExistingTopics": "Choose from one of the existing topics",
+    "orCreateNewTopic": "Or create a new topic",
+    "tapTheImageToSelectText": "Tap the image to select the text you want to use to create your pick",
+    "dragAndDropToReorder": "Drag and drop the picks to sort",
+    "all": "All",
+    "shareBookMessage": "Check out this book on Feynman"
+  },
+  "PushNotifications": {
+    "disabledMessage": "Push notifications are currently disabled. To enable push notifications, go to your device settings and enable them for this app.",
+    "enabledMessage": "Feynman will send you notifications about your picks to keep you in touch with your knowledge.",
+    "allBooks": "All Books",
+    "lastEdited": "Last edited books"
+  },
+  "Placeholders": {
+    "book": "Just a moment, we are getting your book",
+    "books": "There are no books yet here, tap on the purple button to getting started",
+    "search": "Sorry, we couldn't find any results for your search.",
+    "bookSelector": "Sorry we couldn't find any books with this title"
+  },
+  "AddNewPick": {
+    "enrichContent": "Enrich content",
+    "doingMagic": "Doing magic...",
+    "textPlaceholder": "Save the next amazing content..."
+  },
+  "Popups": {
+    "deletePickTitle": "Delete Pick",
+    "deletePickMessage": "Are you sure you want to delete this pick?",
+    "deleteBookTitle": "Delete Book",
+    "deleteBookMessage": "Are you sure you want to delete this book?"
+  },
+  "Actions": {
+    "saveBook": "Save Book",
+    "saving": "Saving...",
+    "search": "Search",
+    "reorderPicks": "Sort Picks",
+    "editTopics": "Edit Topics",
+    "paste": "Paste",
+    "share": "Share",
+    "edit": "Edit",
+    "copy": "Copy",
+    "delete": "Delete",
+    "editMetadata": "Edit Metadata",
+    "changeTitle": "Change Title",
+    "addTitle": "Add Title",
+    "copied": "Copied",
+    "addNewPick": "Add New Pick",
+    "createBook": "Create Book",
+    "addToBook": "Add to Book",
+    "createOrAddPick": "Create or Add",
+    "removeTranslation": "Remove Translation",
+    "generateAI": "generate with ai",
+    "editTitle": "Edit Title",
+    "changeColor": "Change Color",
+    "add": "Add",
+    "contactUs": "Contact Us",
+    "done": "Done",
+    "undo": "Undo",
+    "getStarted": "Get Started",
+    "editContent": "Edit Content"
+  },
+  "Help": {
+    "main": "If you have any questions or need help, feel free to contact us at any time."
+  },
+  "Login": {
+    "bySigningIn": "By signing in, you agree to our",
+    "and": "and"
+  },
+  "Onboarding": {
+    "items": [
+      {
+        "title": "Remember what you read",
+        "description": "Solve the problem of forgetting what you read by using the app to remember what you read."
+      },
+      {
+        "title": "Highlight your favorite quotes",
+        "description": "Highlight your favorite quotes and share them with your friends."
+      },
+      {
+        "title": "Build your critical thinking",
+        "description": "Build your critical thinking by writing your thoughts and ideas about what you read."
+      }
+    ]
+  },
+  "Toasts": {
+    "couldNotEnrichText": "Could not enrich text"
+  }
+}

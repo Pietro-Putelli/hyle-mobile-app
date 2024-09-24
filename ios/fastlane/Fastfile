@@ -1,0 +1,37 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc 'Fetch certificates and provisioning profiles'
+  lane :certificates do
+    match(app_identifier: 'com.pp.panta', type: 'development', readonly: true)
+    match(app_identifier: 'com.pp.panta', type: 'appstore', readonly: true)
+  end
+
+  # https://medium.com/@mertserin/using-fastlane-match-and-gym-for-delivering-ios-apps-part-1-909ca33c8c6b
+
+  desc 'Build the project'
+  lane :beta do
+    certificates
+
+    increment_build_number
+
+    gym(scheme: "Panta", workspace: "Panta.xcworkspace", export_method: "app-store", configuration: "Release")
+
+    pilot(api_key_path: "fastlane/appstoreconnect.json")
+  end
+end

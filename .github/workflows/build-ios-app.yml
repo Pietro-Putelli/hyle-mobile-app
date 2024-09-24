@@ -1,0 +1,62 @@
+name: Build iOS App
+on:
+  push:
+    branches:
+      - feature/fastlane
+  workflow_dispatch:
+jobs:
+  deploy-ios-app:
+    runs-on: macos-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node_modules-
+
+      - name: Install dependencies
+        run: yarn install
+
+      # - name: Setup Ruby (bundle)
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: 2.7
+      #     bundler-cache: true
+        
+      - name: Build Bundle
+        run: npx react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios --verbose
+
+      # - name: Restore Pods cache
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: |
+      #       ios/Pods
+      #       ~/Library/Caches/CocoaPods
+      #       ~/.cocoapods
+      #     key: ${{ runner.os }}-pods-${{ hashFiles('ios/Podfile.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pods-
+
+      # - name: Install Pods
+      #   run: cd ios && pod install --repo-update
+
+      # - name: Install Fastlane
+      #   run: brew install fastlane
+
+      # - name: Build iOS App with Fastlane
+      #   run: cd ios && fastlane build
+      #   env:
+      #     MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      #     AWS_REGION: ${{ secrets.AWS_CERT_S3_REGION }}
+      #     S3_BUCKET_NAME: ${{ secrets.AWS_CERT_S3_BUCKET }}
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_CERT_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_CERT_SECRET_ACCESS_KEY }}

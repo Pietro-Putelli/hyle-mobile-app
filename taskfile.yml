@@ -1,0 +1,17 @@
+version: "3"
+
+tasks:
+  run-simulator:
+    description: "Run the application on simulator"
+    cmds:
+      - npx react-native run-ios --simulator="iPhone 15 Pro Max"
+
+  beta:
+    description: "Deploy the application to TestFlight using Fastlane"
+    cmds:
+      - cd ios && fastlane beta
+
+  run:
+    desc: "Select a physical device from connected devices"
+    cmds:
+      - sh select_device.sh

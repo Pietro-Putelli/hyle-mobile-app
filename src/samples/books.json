@@ -1,0 +1,274 @@
+[
+  {
+    "id": "id1",
+    "title": "The design of everyday things",
+    "author": "Donald A. Norman",
+    "date": "2021-09-01",
+    "picksCount": 2,
+    "picksOrder": "-createdAt",
+    "content": "The design of everyday things is a book that talks about the importance of design in everyday life. The author, Donald A. Norman, explains how design can influence our behavior and how we interact with the world around us.",
+    "topics": [
+      {
+        "title": "psychology",
+        "color": "#283470"
+      },
+      {
+        "title": "design",
+        "color": "#F94627"
+      },
+      {
+        "title": "graphic design",
+        "color": "#00B28B"
+      },
+      {
+        "title": "Ux design",
+        "color": "#FAA900"
+      }
+    ],
+    "picks": [
+      {
+        "id": "2",
+        "parts": [
+          {
+            "content": "The term ",
+            "end": 9,
+            "id": "p1",
+            "start": 0,
+            "type": "text"
+          },
+          {
+            "content": "affordance",
+            "end": 19,
+            "id": "p2",
+            "start": 9,
+            "type": "keyword"
+          },
+          {
+            "content": " was coined by psychologist James J. Gibson in ",
+            "end": 66,
+            "id": "p3",
+            "start": 19,
+            "type": "text"
+          },
+          {
+            "content": "1970s",
+            "end": 71,
+            "id": "p4",
+            "start": 66,
+            "type": "keyword"
+          },
+          {
+            "content": " to refer to the perceived and actual",
+            "end": 108,
+            "id": "p5",
+            "start": 71,
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "parts": [
+          {
+            "content": "THE STARTING POINT for acknowledging human nature is a sheer awe and ",
+            "end": 69,
+            "id": "XX6fG9R9",
+            "start": 0,
+            "type": "text"
+          },
+          {
+            "content": "bauhaus",
+            "end": 77,
+            "id": "pZdvnIP6",
+            "start": 69,
+            "type": "keyword",
+            "annotation": "A German art school operational from 1919 to 1933 that combined crafts and the fine arts. It was famous for its approach to design, which attempted to unify the principles of mass production with individual artistic vision and strove to combine aesthetics with everyday function.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Bauhaus",
+              "https://www.britannica.com/topic/Bauhaus"
+            ]
+          },
+          {
+            "content": " in the face of the staggering complexity of its source, the brain. Organized by the three ",
+            "end": 168,
+            "id": "RVn2Zalp",
+            "start": 77,
+            "type": "text"
+          },
+          {
+            "content": "de stijl",
+            "end": 188,
+            "id": "z94zBKbI",
+            "start": 168,
+            "type": "keyword",
+            "annotation": "A Dutch artistic movement founded in 1917 that sought to express a new utopian ideal of spiritual harmony and order.",
+            "sources": [
+              "https://www.encyclopedia.com/",
+              "https://www.tate.org.uk/art/art-terms/d/de-stijl"
+            ]
+          },
+          {
+            "content": " genome and shaped by hundreds of millions of ",
+            "end": 234,
+            "id": "AzHnR4KS",
+            "start": 188,
+            "type": "text"
+          },
+          {
+            "content": "manierism",
+            "end": 252,
+            "id": "a8cQ8s8z",
+            "start": 234,
+            "type": "annotation",
+            "annotation": "A style in European art that emerged in the later years of the Italian High Renaissance around 1520.",
+            "sources": ["https://www.britannica.com/art/Mannerism"]
+          },
+          {
+            "content": ", the brain is a network of unimaginable intri-cacy: a hundred billion ",
+            "end": 323,
+            "id": "fSFZdgSy",
+            "start": 252,
+            "type": "text"
+          },
+          {
+            "content": "neurons",
+            "end": 330,
+            "id": "7ugdlvpB",
+            "start": 323,
+            "type": "keyword",
+            "annotation": "A specialized cell transmitting nerve impulses; a nerve cell. Neurons are the basic building blocks of the nervous system. They are cells that are specialized to process information. They can communicate with other neurons and with other types of cells like muscle cells. Neurons are the core components of the brain and spinal cord of the central nervous system, and of the ganglia of the peripheral nervous system.",
+            "sources": ["https://en.wikipedia.org/wiki/Neuron"]
+          },
+          {
+            "content": " linked by a hundred trillion connections, woven into a ",
+            "end": 386,
+            "id": "pmhT7szM",
+            "start": 330,
+            "type": "text"
+          },
+          {
+            "content": "convoluted",
+            "end": 396,
+            "id": "LC8GEus1",
+            "start": 386,
+            "type": "translation",
+            "translation": "intricato, complesso",
+            "meaning": "intricato e complesso in modo artificioso o complicato e difficile da comprendere"
+          },
+          {
+            "content": " three-dimensional architecture.",
+            "end": 428,
+            "id": "eqoKo8p5",
+            "start": 396,
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "id2",
+    "title": "The Blank Slate",
+    "author": "Steven Pinker",
+    "date": "2021-09-01",
+    "picksCount": 4,
+    "picksOrder": "-createdAt",
+    "content": "The Blank Slate is a book that talks about the nature vs. nurture debate. The author, Steven Pinker, argues that human behavior is not solely determined by genetics but is also influenced by environmental factors.",
+    "topics": [
+      {
+        "title": "psychology",
+        "color": "#283470"
+      },
+      {
+        "title": "biology",
+        "color": "#F94627"
+      },
+      {
+        "title": "genetics",
+        "color": "#00B28B"
+      },
+      {
+        "title": "social sciences",
+        "color": "#FAA900"
+      }
+    ],
+    "picks": [
+      {
+        "id": "2",
+        "parts": [
+          {
+            "content": "The Blank Slate theory, attributed to ",
+            "end": 175,
+            "id": "p1",
+            "start": 0,
+            "type": "text"
+          },
+          {
+            "content": "John Locke",
+            "start": 176,
+            "end": 186,
+            "id": "p2",
+            "type": "keyword"
+          },
+          {
+            "content": ", posits that humans are born without inherent traits, shaped entirely by ",
+            "start": 187,
+            "end": 300,
+            "id": "p3",
+            "type": "text"
+          },
+          {
+            "content": "social influences",
+            "start": 301,
+            "end": 317,
+            "id": "p4",
+            "type": "keyword"
+          },
+          {
+            "content": " and experiences, challenging the notion of inherent nature.",
+            "start": 318,
+            "end": 378,
+            "id": "p5",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "parts": [
+          {
+            "content": "The Noble Savage theory suggests that humans are inherently good and that society corrupts them, while the Ghost in the Machine theory posits that humans have a soul or spirit that transcends the physical body.",
+            "end": 210,
+            "id": "p1",
+            "start": 0,
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "parts": [
+          {
+            "content": "Human nature has been subject to three main but faulty theories: the Blank Slate, Noble Savage, and Ghost in the Machine, each reflecting different philosophical perspectives over the centuries.",
+            "end": 194,
+            "id": "p1",
+            "start": 0,
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "parts": [
+          {
+            "content": "Pinker argues that all three theories are flawed and that human behavior is a complex interplay of genetics, environment, and culture.",
+            "end": 134,
+            "id": "p1",
+            "start": 0,
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+]
