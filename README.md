@@ -1,9 +1,9 @@
-## Feynman Mobile App
+## Hyle Mobile App
 
-Feynman is your intelligent reading companion, designed to help you **retain knowledge** and sharpen **critical thinking** effortlessly. Capture **key insights**, memorable quotes, and personal reflections as you read, keeping everything organized. **Highlight essential passages**, instantly translate unfamiliar words, and enhance your understanding. With its **advanced semantic search**, Feynman acts like a second mind, helping you connect ideas with ease. Unlock deeper comprehension and maximize the value of every text.
+Hyle is your intelligent reading companion, designed to help you **retain knowledge** and sharpen **critical thinking** effortlessly. Capture **key insights**, memorable quotes, and personal reflections as you read, keeping everything organized. **Highlight essential passages**, instantly translate unfamiliar words, and enhance your understanding. With its **advanced semantic search**, Hyle acts like a second mind, helping you connect ideas with ease. Unlock deeper comprehension and maximize the value of every text.
 
-This is the foundation for creating a more comprehensive and fully-developed product, leading to Feynman 2.0.
-Check out more on [feynmanapp.com](https://feynmanapp.com).
+This is the foundation for creating a more comprehensive and fully-developed product, leading to Hyle 2.0.
+Check out more on [Hyle-app.com](https://hyle-app.com).
 
 # A Quick Overview
 
